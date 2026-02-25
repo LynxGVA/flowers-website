@@ -4,6 +4,9 @@ A clean, responsive flower shop landing page built with HTML, CSS, and vanilla J
 
 This project was created as a frontend practice project to demonstrate layout structure and styling.
 
+## Live Demo
+https://lynxgva.github.io/flowers-website/
+
 ## Sections
 - Gallery
 - About
