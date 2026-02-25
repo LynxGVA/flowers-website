@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+body {
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 0px 40px 0px;
+    margin-top: 70px;
+}
+
+.logo {
+    font-family: "Caprasimo", serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+header {
+   margin-bottom: 20px;
+   display: flex;
+   justify-content: space-between;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-transform: uppercase;
+    gap: 40px;
+    font-weight: 700px;
+    color: #2C2825 ;
+}
+
+.header-wrap {
+    position: fixed;
+    background-color: white;
+    width: 95%;
+    top: 0px;
+    height: 55px;
+    padding-top: 30px ;
+}
+
+.container {
+    text-align: center;
+}
+
+.hero {
+    padding-top: 50px;
+}
+
+.hero img {
+    margin-top: 30px;
+}
+
+.main b {
+    color: #575757;
+    font-weight: 700px;
+}
+
+.main {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.btn {
+    padding: 7px 0px 0px 15px;
+    padding-top: 7px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    width: 100px;
+    height: 25px;
+    background: #FFC800;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-changed {
+    color: red;
+    font-weight: 900;
+    background: black;
+}
+
+.btn::after {
+    content: " ";
+    display: block;
+    background-color: black;
+    width: 5px;
+    height: 5px;
+    border-radius: 5px;
+    position: relative;
+    bottom: 13px;
+    left: 1px;
+}
+
+.images-index {
+    display: flex;
+    justify-content: space-between;
+    margin: 150px 0px 50px 0px;
+}
+
+.container.index-we-do h1 {
+    margin: 40px;
+    font-size: 50px;
+}
+
+.container.index-we-do p {
+    font-size: 17px;
+    margin: 40px;
+}
+.container.index-we-do img {
+    margin: 50px 0px;
+}
+
+/* =========================================================
+   JS PRACTICE STYLES (not used in main project)
+   =========================================================
+
+.box {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: transform 0.4s ease;
+}
+
+.box.active {
+  transform: translateX(200px) scale(1.2) rotate(10deg);
+}
+
+.card {
+  width: 150px;
+  height: 100px;
+  background: #ddd;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.photo {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+.photo.fade {
+  opacity: 0;
+}
+
+.slider {
+  width: 300px;
+  height: 6px;
+  background: #ccc;
+  position: relative;
+}
+
+.thumb {
+  width: 20px;
+  height: 20px;
+  background: red;
+  border-radius: 50%;
+  position: absolute;
+  top: -7px;
+  left: 0;
+  cursor: pointer;
+}
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay.active {
+  display: flex;
+}
+
+.overlay.active .modal {
+  transform: scale(1);
+}
+
+========================================================= */
